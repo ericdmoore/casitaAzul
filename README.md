@@ -46,7 +46,12 @@
   </p>
 </div>
 
-[![Product Name Screen Shot][product-screenshot]](//github.com/ericdmoore/casitaAzul)
+
+<div align="center">
+  <a href="//github.com/ericdmoore/casitaAzul">
+    <img href="https://raw.githubusercontent.com/ericdmoore/casitaAzul/master/images/casitaAzulLogo.svg" alt="Casita Azul Logo: Vector art of a small blue house" />
+  </a>
+</div>
 
 
 <!-- TABLE OF CONTENTS -->
@@ -319,4 +324,3 @@ Use this space to list resources you find helpful and would like to give credit 
 [license-url]: //github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: //img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: //linkedin.com/in/othneildrew
-[product-screenshot]: https://raw.githubusercontent.com/ericdmoore/casitaAzul/master/images/casitaAzulLogo.svg
