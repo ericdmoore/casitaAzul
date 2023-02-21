@@ -38,7 +38,7 @@
   <p align="center">
     The thoughts, designs, and plans for a heavily over engineered blue kids play house.
     <br />
-    <a href="//github.com/othneildrew/Best-README-Template">Systems</a>
+    <a href="//github.com/ericdmoore/casitaAzul">Systems</a>
     ·
     <a href="//github.com/othneildrew/Best-README-Template/issues">Future</a>
     ·
@@ -319,4 +319,5 @@ Use this space to list resources you find helpful and would like to give credit 
 [license-url]: //github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: //img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: //linkedin.com/in/othneildrew
-[product-screenshot]: images/casitaAzullogo.svg
+[product-screenshot]: /images/casitaAzullogo.svg
+[product-screenshot-alt]://raw.githubusercontent.com/ericdmoore/casitaAzul/master/images/casitaAzulLogo.svg
