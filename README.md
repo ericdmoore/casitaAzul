@@ -46,14 +46,12 @@
   </p>
 </div>
 
+
 <div align="center">
   <a href="//github.com/ericdmoore/casitaAzul">
-    <img 
-      href="/images/casitaAzulLogo.svg"
-      alt="Casita Azul Logo: Vector art of a small blue house" />
+    <img src="/images/casitaAzulLogo.svg" alt="Casita Azul" width="300" height="300">
   </a>
 </div>
-
 
 <!-- TABLE OF CONTENTS -->
 <details>
