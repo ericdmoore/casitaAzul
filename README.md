@@ -40,13 +40,13 @@
     <br />
     <a href="//github.com/ericdmoore/casitaAzul">Systems</a>
     ·
-    <a href="//github.com/othneildrew/Best-README-Template/issues">Future</a>
+    <a href="//github.com/ericdmoore/casitaAzul">Future</a>
     ·
-    <a href="//github.com/othneildrew/Best-README-Template/issues">Hat Tip Resources</a>
+    <a href="//github.com/ericdmoore/casitaAzul">Hat Tip Resources</a>
   </p>
 </div>
 
-[![Product Name Screen Shot][product-screenshot]](//example.com)
+[![Product Name Screen Shot][product-screenshot]](//github.com/ericdmoore/casitaAzul)
 
 
 <!-- TABLE OF CONTENTS -->
