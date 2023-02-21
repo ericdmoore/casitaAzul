@@ -24,7 +24,7 @@
 <br />
 <div align="center">
   <a href="//github.com/ericdmoore/casitaAzul">
-    <img src="images/casitaAzulWordArt.svg" alt="Casita Azul" width="100" height="100">
+    <img src="/images/casitaAzulWordArt.svg" alt="Casita Azul" width="100" height="100">
   </a>
 
   <!-- <h3 align="center">Casita Azul</h3> -->

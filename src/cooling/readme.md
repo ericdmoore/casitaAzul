@@ -23,3 +23,6 @@ Options:
 Swamp Tower
 - 24V Fan
 - 24V water pump
+    - Peltier Station
+        - 2s2p TEC element
+    
