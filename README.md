@@ -49,7 +49,7 @@
 <div align="center">
   <a href="//github.com/ericdmoore/casitaAzul">
     <img 
-      href="/images/casitaAzulLogo.svg?sanitize=true"
+      href="images/casitaAzulLogo.svg?sanitize=true"
       alt="Casita Azul Logo: Vector art of a small blue house" />
   </a>
 </div>
