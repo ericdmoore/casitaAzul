@@ -35,10 +35,10 @@ _A subtle difference in mental models that pays dividends in the long run._
 
 ```mermaid
 flowchart TD
-   IDU[Inside Fan] -->|Warmed Water| IDUtub[(Cooled OG Igloo)]
+   IDU[Inside Fan] -->|Warmed Water| IDUtub[(IDU Igloo with Heating Element)]
    IDUtub -->|Chilled Water Supply via 35w pump| IDU
-   IDUtub -->|20W pump| TECcold{TEC chiller}
-   TECcold --> |Removed Heat| IDUtub
+   IDUtub -->|20W pumped warm water | TECcold{TEC chiller}
+   TECcold --> |cooled water| IDUtub
    TECcold --> |Active Thermal Pumping 160w| TEChot{TEC heat side}
    ODUtub[(Warmed Secondary Igloo)] -->|20W pump| TEChot
    TEChot -->|Dumped Heat| ODUtub
