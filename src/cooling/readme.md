@@ -35,7 +35,7 @@ _A subtle difference in mental models that pays dividends in the long run._
 
 ```mermaid
 flowchart TD
-   indoorHeat [[Indoor Heat]] --> |Heat Exchanger| IDU [Inside Fan]
+   indoorHeat[[Indoor Heat]] --> |Heat Exchanger| IDU[Inside Fan]
    IDU -->|warmed water| IDUtub[(IDU Water Supply + Heater)]
    IDUtub -->|cool water supply via 35w pump| IDU
    IDUtub -->|warm water via 20W pump| TECcold{TEC chiller}
