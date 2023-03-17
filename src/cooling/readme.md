@@ -34,14 +34,11 @@ flowchart TD
    TECcold --> |Active Thermal Pumping 160w| TEChot
    ODUtub[(Warmed Secondary Igloo)] -->|20W pump| TEChot{TEC heat side}
    TEChot{TEC heat side} --> ODUtub
-```
-
-<!--  
    ODUtub[(Warmed Secondary Igloo)] -- >|20W pump| TEChot{TEC heat side}
    TEChot -- > ODUtub
    ODUtub -- >|High pressure Pump 100w?| ShowerTower[ShowerTower & Fan]
    ShowerTower -- > ODUtub
--->
+```
 
 1. Shower Tower
    - 24V Air Fan
