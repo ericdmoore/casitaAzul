@@ -27,12 +27,21 @@ _A subtle difference in mental models that pays dividends in the long run._
 
 ```mermaid
 flowchart TD
-   IDU[Inside Fan] -->|Large Tubes| IDUtub(Original Igloo)
+
+   IDU[Inside Fan] -->|Large Tubes| IDUtub[(Cooled OG Igloo)]
    IDUtub -->|20W pump| TECcold{TEC chiller}
    TECcold --> IDUtub
-   ODUtub -->|20W pump| TEChot{TEC heat side}
+   TECcold --> |Active Thermal Pumping ~160w| TEChot
+   ODUtub[(Warmed Secondary Igloo)] -->|20W pump| TEChot{TEC heat side}
    TEChot{TEC heat side} --> ODUtub
 ```
+
+<!--  
+   ODUtub[(Warmed Secondary Igloo)] -- >|20W pump| TEChot{TEC heat side}
+   TEChot -- > ODUtub
+   ODUtub -- >|High pressure Pump 100w?| ShowerTower[ShowerTower & Fan]
+   ShowerTower -- > ODUtub
+-->
 
 1. Shower Tower
    - 24V Air Fan
