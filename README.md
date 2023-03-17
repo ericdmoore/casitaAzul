@@ -38,18 +38,15 @@
   <p align="center">
     The thoughts, designs, and plans for a heavily over engineered blue kids play house.
     <br />
-    <a href="//github.com/ericdmoore/casitaAzul">Systems</a>
-    ·
-    <a href="//github.com/ericdmoore/casitaAzul">Future</a>
-    ·
-    <a href="//github.com/ericdmoore/casitaAzul">Hat Tip Resources</a>
+    <a href="//github.com/ericdmoore/casitaAzul#systems">Systems</a> ·
+    <a href="//github.com/ericdmoore/casitaAzul#plans">Future</a> ·
+    <a href="//github.com/ericdmoore/casitaAzul#hat-tip-resources">Hat Tip Resources</a>
   </p>
 </div>
 
-
 <div align="center">
   <a href="//github.com/ericdmoore/casitaAzul">
-    <img src="/images/casitaAzulLogo.svg" alt="Casita Azul" width="300" height="300">
+    <img width="300" height="300" src="/images/casitaAzulLogo.svg" alt="Casita Azul Picture with Logo written on the roof" >
   </a>
 </div>
 
@@ -83,6 +80,26 @@
 ## The Project
 
 Kids need a place that is all there own. In a fortuitous, and mutually beneficial arrangement, my renewable energy tinkering has benefitted my kids with upgrades to their play house. And that has also benefitted my conscious when I tell them go play outside, no matter the time or weather.
+
+
+# Principles Leading To This Design
+- Why not just bring in elecrical mains from the utility company?
+  - Safety. My daughters are playing in there as young as 2 years old, and I want them to be able to play with forks and not worry about them sticking it in a wall socket.
+  - Sure You could bring in a long conduit with romex and put a large DC converter. Fair Enough. I did not want to deal with code compliance, and I wanted to be able to add more power later, with out having to run mess with digging and with conduit.
+  - I also enjoyed getting my "hands dirty" with creating an off-grid principled system.
+
+- Why not just use a 12V system?
+  - Max Watts in for my MPPT is double with 24V systems
+  - Wire is cheaper to run smaller gauge wire - for smaller currents
+  - Just using a 12v dc-dc converter to get a 12v rail
+
+
+- Why not Use Bigger Panels?
+  - I would have if I was starting today. I would have used ~400W panels. But I limpped into the projerct.
+  
+- Why not use a 48V system?
+  - If I was running my regular house on a solar+battery system, I would indeed use a 48V system, however that would have needlessly upped my budget on the project.
+
 
 ### Systems
 
@@ -127,16 +144,15 @@ Kids need a place that is all there own. In a fortuitous, and mutually beneficia
 - [Car/Blade Style Fuses](https://amzn.to/3IH1M5O)
 - Wiring
   - High Capacity Wire (Battery System)
-    - [Lug Terminals](https://amzn.to/3xDOkJH)
-    - [Lug Crimpers](https://amzn.to/3Kwm9Uu)
-    - [MC4 Crimpers](https://amzn.to/3Y6fDap)
+    - [Lug Terminals](https://amzn.to/3xDOkJH) + [Lug Crimpers](https://amzn.to/3Kwm9Uu)
+    - [MC4 Terminals](//amzn.to/3YWgXh5) + [MC4 Crimpers](https://amzn.to/3Y6fDap)
   - Low Power Wire (Wire Leads For Loads)
     - [Automatic Wire Strippers](//amzn.to/3lZLX1i)
     - Low Voltage Lighting / Speaker Wire Style
       - [Lever Nuts](//amzn.to/3xIffnu)
     - Cat6 Style
       - [Cat6A Crimpers](https://amzn.to/3SgRJaN)
-      - [Cat6 Terminal/Keystones](https://amzn.to/3Z8zYMR)
+      - [Cat6 Terminals/Keystones](https://amzn.to/3Z8zYMR)
 - DC Voltage Converters
   - [for a 12V subsystem](//amzn.to/3Z7VS2U)
 - Lighting
