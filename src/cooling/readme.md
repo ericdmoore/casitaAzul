@@ -35,7 +35,8 @@ _A subtle difference in mental models that pays dividends in the long run._
 
 ```mermaid
 flowchart TD
-   IDU[Inside Fan + Heat Exchanger] -->|warmed water| IDUtub[(IDU Water Supply + Heater)]
+   indoorHeat [[Indoor Heat]] --> |Heat Exchanger| IDU [Inside Fan]
+   IDU -->|warmed water| IDUtub[(IDU Water Supply + Heater)]
    IDUtub -->|cool water supply via 35w pump| IDU
    IDUtub -->|warm water via 20W pump| TECcold{TEC chiller}
    TECcold --> |cooled water| IDUtub
@@ -44,6 +45,7 @@ flowchart TD
    TEChot -->|warmed water| ODUtub
    ODUtub --> |100w Pump High Pressure warm water| ShowerTower[ShowerTower and Fan]
    ShowerTower --> |ambient water| ODUtub
-   ShowerTower --> |dumped heat to ambient| air(heat loss via phase change evaporation)
-   IDUtub -->|20W Connection Pump for Direct IDU Cooling| ODUtub
+   ShowerTower --> |dumped heat to ambient air| air(heat loss via phase change evaporation)
+   IDUtub -->|20W Direct Connection Pump| ODUtub
+   air --> outdoorHeat[[Heat Moved Oustside]]
 ```
