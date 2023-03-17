@@ -25,9 +25,16 @@ _A subtle difference in mental models that pays dividends in the long run._
    - 4s2p config of 12706 TECs
    - So far, can achieve a 51ºF cold tub + 70ºF (∆12ºC) Hot tub (in ambient 80ºF)
 
+1. Shower Tower
+   - 24V Air Fan
+   - 24V Water pump (high pressure for better atomization)
+
+1. Ensemble
+   - Peltier + Evap
+   - If the Peltier can get the heat water over ambient, and the evap tower can evacuate the heat back to ambient, thne we have a net cooling effect.
+
 ```mermaid
 flowchart TD
-
    IDU[Inside Fan] -->|Large Tubes| IDUtub[(Cooled OG Igloo)]
    IDUtub -->|20W pump| TECcold{TEC chiller}
    TECcold --> |Removed Heat| IDUtub
@@ -37,16 +44,6 @@ flowchart TD
    ODUtub --> |100w High Pressure Pump| ShowerTower[ShowerTower and Fan]
    ShowerTower --> |Ambient| ODUtub
    ShowerTower --> |Dumped Heat To Ambient| air(heat loss via phase change evaporation)
+
+   IDUtub -->|20W Connection Pump for Direct IDU Cooling| ODUtub
 ```
-<!-- 
-
- -->
-
-
-1. Shower Tower
-   - 24V Air Fan
-   - 24V Water pump (high pressure for better atomization)
-
-1. Ensemble
-   - Peltier + Evap
-   - If the Peltier can get the heat water over ambient, and the evap tower can evacuate the heat back to ambient, thne we have a net cooling effect.
