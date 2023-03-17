@@ -36,6 +36,7 @@ flowchart TD
    TEChot --> ODUtub
    ODUtub --> |100w High Pressure Pump| ShowerTower[ShowerTower and Fan]
    ShowerTower --> ODUtub
+   ShowerTower --> EvaporatedAir
 ```
 <!-- 
 
