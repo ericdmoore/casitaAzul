@@ -36,7 +36,7 @@ flowchart TD
    TEChot -->|Dumped Heat| ODUtub
    ODUtub --> |100w High Pressure Pump| ShowerTower[ShowerTower and Fan]
    ShowerTower --> |Ambient| ODUtub
-   ShowerTower --> |Dumped Heat To Ambient| EvaporatedAir
+   ShowerTower --> |Dumped Heat To Ambient| air(heat loss via phase change evaporation)
 ```
 <!-- 
 
