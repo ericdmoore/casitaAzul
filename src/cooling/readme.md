@@ -41,9 +41,9 @@ flowchart TD
    TECcold --> |cooled water| IDUtub
    TECcold --> |Active Thermal Pumping 160w| TEChot{TEC heat side}
    ODUtub[(Warmed Secondary Igloo)] -->|20W pump| TEChot
-   TEChot -->|Dumped Heat| ODUtub
-   ODUtub --> |100w High Pressure Pump| ShowerTower[ShowerTower and Fan]
-   ShowerTower --> |Ambient| ODUtub
+   TEChot -->|warmed water| ODUtub
+   ODUtub --> |100w Pump High Pressure warm water| ShowerTower[ShowerTower and Fan]
+   ShowerTower --> |Ambient Water| ODUtub
    ShowerTower --> |Dumped Heat To Ambient| air(heat loss via phase change evaporation)
 
    IDUtub -->|20W Connection Pump for Direct IDU Cooling| ODUtub
