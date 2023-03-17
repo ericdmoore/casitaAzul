@@ -35,8 +35,8 @@ flowchart TD
    ODUtub[(Warmed Secondary Igloo)] -->|20W pump| TEChot
    TEChot -->|Dumped Heat| ODUtub
    ODUtub --> |100w High Pressure Pump| ShowerTower[ShowerTower and Fan]
-   ShowerTower --> |Dumped Heat| ODUtub
-   ShowerTower --> |Dumped Heat| EvaporatedAir
+   ShowerTower --> |Ambient| ODUtub
+   ShowerTower --> |Dumped Heat To Ambient| EvaporatedAir
 ```
 <!-- 
 
