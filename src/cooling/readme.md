@@ -31,7 +31,7 @@ flowchart TD
    IDU[Inside Fan] -->|Large Tubes| IDUtub[(Cooled OG Igloo)]
    IDUtub -->|20W pump| TECcold{TEC chiller}
    TECcold --> IDUtub
-   TECcold --> |Active Thermal Pumping ~160w| TEChot
+   TECcold --> |Active Thermal Pumping 160w| TEChot
    ODUtub[(Warmed Secondary Igloo)] -->|20W pump| TEChot{TEC heat side}
    TEChot{TEC heat side} --> ODUtub
 ```
